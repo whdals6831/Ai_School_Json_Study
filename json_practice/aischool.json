@@ -1,0 +1,84 @@
+{
+    "students": [
+        {
+            "userid": "jjm",
+            "password": "1234",
+            "name": "정종민",
+            "age": "24",
+            "job": "Good job"
+        },
+        {
+            "userid": "kim",
+            "password": "4567",
+            "name": "김씨",
+            "age": "19",
+            "job": "student"
+        },
+        {
+            "userid": "park",
+            "password": "890",
+            "name": "박씨",
+            "age": "33",
+            "job": "student"
+        },
+        {
+            "userid": "choi",
+            "password": "dfsdg",
+            "name": "최씨",
+            "age": "15",
+            "job": "student"
+        },
+        {
+            "userid": "gugugu",
+            "password": "99999",
+            "name": "홍길동",
+            "age": "11",
+            "job": "student"
+        },
+        {
+            "userid": "vvvv",
+            "password": "dskfj",
+            "name": "감나무",
+            "age": "13",
+            "job": "나무"
+        },
+        {
+            "userid": "bnb",
+            "password": "jks5\\",
+            "name": "배찌",
+            "age": "5",
+            "job": "물풍선 던짐이"
+        }
+    ],
+
+    "teachers" : [
+        {
+            "userid": "wjdwhdals",
+            "password": "dfcvsd33f4",
+            "name": "세종대왕",
+            "age": "10",
+            "job": "국어 선생님"
+        },
+        {
+            "userid": "gkstjrdnjs",
+            "password": "dfcvsd33f4",
+            "name": "한석원",
+            "age": "45",
+            "job": "수학 선생님"
+        },
+        {
+            "userid": "qlfrpdlcm",
+            "password": "ms",
+            "name": "빌게이츠",
+            "age": "59",
+            "job": "교장 선생님"
+        },
+        {
+            "userid": "vhsshdlaks",
+            "password": "010101110",
+            "name": "폰노이만",
+            "age": "56",
+            "job": "컴퓨터 선생님"
+        }
+    ]
+}
