@@ -3,6 +3,10 @@ import getpass
 
 def create_database_table() :
     conn = sqlite3.connect('./user_data.db')
+    # 자동 커밋 (이렇게 하면 execute할 때마다 커밋이 되어 
+    # conn.commit()을 일일이 안해줘도 된다.)
+    # conn = sqlite3.connect('./user_data.db', isolation_level=None)
+    
     cur = conn.cursor()
     
     # 유저 Table
@@ -207,6 +211,9 @@ def my_page(userid) :
 def main() :
     # 시작할 때 데이터베이스에 테이블 생성
     create_database_table()
+
+    # cur를 함수의 인자로 넣어주면 계속해서 불러올 필요없이
+    # 바로바로 execute하면 되서 코드를 더욱 간결하게 만들 수 있다.
 
     while True :
         print("\n---------- 메뉴 화면 ----------")
